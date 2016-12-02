@@ -37,7 +37,7 @@ my $HEAD_ID_DEFAULT_STYLE =
 my $HEAD_ID_SPECIFIC_STYLE =
   'TABLEPLUGIN_specific';    # this name is part of the API, do not change
 
-my $PATTERN_TABLE = qr/%TABLE(?:{(.*?)})?%/;
+my $PATTERN_TABLE = qr/%TABLE(?:\{(.*?)\})?%/;
 my $URL_ICON =
     Foswiki::Func::getPubUrlPath() . '/'
   . $Foswiki::cfg{SystemWebName}
